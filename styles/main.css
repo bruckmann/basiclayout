@@ -1,13 +1,14 @@
 
 :root {
     --color-fonts:#dcdde1;
-    --first-color:#353b48;
+    --first-color: #2b2b2b;
 
 }
 
 body {
     background: var(--first-color);
     font-family: 'Rubik', sans-serif;
+    transform: 400ms;
 }
 
 .links {
@@ -21,7 +22,6 @@ body {
     margin: 0 16px;
     font-family: 'Rubik', sans-serif;
     font-weight: 300;
-    transition: color 400ms;
 }
 
 .links a:hover{
@@ -38,6 +38,7 @@ body {
     width: 250px;
     border-radius: 50%;
     border: 2px solid #8c7ae6;
+    margin-top: 100px;
     margin-bottom: 32px;
     transition: border 1000ms;
 }
